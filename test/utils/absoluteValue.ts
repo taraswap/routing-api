@@ -1,4 +1,4 @@
-import { Fraction } from '@uniswap/sdk-core'
+import { Fraction } from '@0xelod/sdk-core'
 import JSBI from 'jsbi'
 
 export function absoluteValue(fraction: Fraction): Fraction {

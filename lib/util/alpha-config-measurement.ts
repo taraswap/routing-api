@@ -1,6 +1,6 @@
-import { ChainId, Currency, CurrencyAmount } from '@uniswap/sdk-core'
+import { ChainId, Currency, CurrencyAmount } from '@0xelod/sdk-core'
 import { Protocol } from '@uniswap/router-sdk'
-import { log, metric, MetricLoggerUnit, SwapRoute } from '@uniswap/smart-order-router'
+import { log, metric, MetricLoggerUnit, SwapRoute } from '@0xelod/smart-order-router'
 
 export const getDistribution = (distributionPercent: number) => {
   const percents: Array<number> = new Array<number>()

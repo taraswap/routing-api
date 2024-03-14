@@ -1,9 +1,9 @@
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from '@0xelod/sdk-core'
 import * as cdk from 'aws-cdk-lib'
 import * as aws_cloudwatch from 'aws-cdk-lib/aws-cloudwatch'
 import { Construct } from 'constructs'
 import _ from 'lodash'
-import { ID_TO_NETWORK_NAME } from '@uniswap/smart-order-router/build/main/util/chains'
+import { ID_TO_NETWORK_NAME } from '@0xelod/smart-order-router/build/main/util/chains'
 
 const providerForChain: Map<ChainId, string[]> = new Map([
   [ChainId.AVALANCHE, ['INFURA', 'QUIKNODE', 'NIRVANA']],

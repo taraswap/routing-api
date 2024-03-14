@@ -4,6 +4,7 @@ export enum ProviderName {
   FORNO = 'FORNO',
   ALCHEMY = 'ALCHEMY',
   NIRVANA = 'NIRVANA',
+  TARAXA = 'TARAXA',
   UNKNOWN = 'UNKNOWN',
 }
 

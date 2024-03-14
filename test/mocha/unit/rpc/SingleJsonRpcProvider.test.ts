@@ -1,4 +1,4 @@
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from '@0xelod/sdk-core'
 import { SingleJsonRpcProvider } from '../../../../lib/rpc/SingleJsonRpcProvider'
 import Sinon, { SinonSandbox } from 'sinon'
 import chai, { assert, expect } from 'chai'

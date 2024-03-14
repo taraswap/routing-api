@@ -1,6 +1,6 @@
 import { Protocol } from '@uniswap/router-sdk'
-import { V2SubgraphProvider, V3SubgraphProvider } from '@uniswap/smart-order-router'
-import { ChainId } from '@uniswap/sdk-core'
+import { V2SubgraphProvider, V3SubgraphProvider } from '@0xelod/smart-order-router'
+import { ChainId } from '@0xelod/sdk-core'
 
 export const chainProtocols = [
   // V3.
@@ -45,6 +45,12 @@ export const chainProtocols = [
     chainId: ChainId.BASE,
     timeout: 90000,
     provider: new V3SubgraphProvider(ChainId.BASE, 3, 90000),
+  },
+  {
+    protocol: Protocol.V3,
+    chainId: ChainId.TARAXA_TESTNET,
+    timeout: 90000,
+    provider: new V3SubgraphProvider(ChainId.TARAXA_TESTNET, 3, 90000),
   },
   // Currently there is no working V3 subgraph for Optimism so we use a static provider.
   // V2.

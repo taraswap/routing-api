@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token, WETH9 } from '@uniswap/sdk-core'
+import { Currency, CurrencyAmount, Token, WETH9 } from '@0xelod/sdk-core'
 import { providers } from 'ethers'
 import hre from 'hardhat'
 import JSBI from 'jsbi'

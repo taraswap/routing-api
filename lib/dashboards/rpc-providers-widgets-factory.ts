@@ -1,8 +1,8 @@
 import { WidgetsFactory } from './core/widgets-factory'
 import { Widget } from './core/model/widget'
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from '@0xelod/sdk-core'
 import _ from 'lodash'
-import { ID_TO_NETWORK_NAME } from '@uniswap/smart-order-router/build/main/util/chains'
+import { ID_TO_NETWORK_NAME } from '@0xelod/smart-order-router/build/main/util/chains'
 import { ProviderName } from '../handlers/evm/provider/ProviderName'
 
 const ID_TO_PROVIDER = (id: ChainId): string => {
@@ -23,6 +23,8 @@ const ID_TO_PROVIDER = (id: ChainId): string => {
       return ProviderName.QUIKNODE
     case ChainId.CELO_ALFAJORES:
       return ProviderName.FORNO
+    case ChainId.TARAXA_TESTNET:
+      return ProviderName.TARAXA
     default:
       return ProviderName.UNKNOWN
   }

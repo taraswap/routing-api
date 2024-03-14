@@ -1,5 +1,5 @@
 import Joi from '@hapi/joi'
-import { MethodParameters } from '@uniswap/smart-order-router'
+import { MethodParameters } from '@0xelod/smart-order-router'
 
 export type TokenInRoute = {
   address: string

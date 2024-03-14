@@ -4,8 +4,8 @@ import {
   ITokenProvider,
   log,
   NodeJSCache,
-} from '@uniswap/smart-order-router'
-import { ChainId } from '@uniswap/sdk-core'
+} from '@0xelod/smart-order-router'
+import { ChainId } from '@0xelod/sdk-core'
 import { TokenList } from '@uniswap/token-lists'
 import S3 from 'aws-sdk/clients/s3'
 import NodeCache from 'node-cache'

@@ -1,5 +1,5 @@
-import { CacheMode } from '@uniswap/smart-order-router'
-import { ChainId, CurrencyAmount, Token, TradeType } from '@uniswap/sdk-core'
+import { CacheMode } from '@0xelod/smart-order-router'
+import { ChainId, CurrencyAmount, Token, TradeType } from '@0xelod/sdk-core'
 import {
   CachedRoutesBucket,
   CachedRoutesStrategy,

@@ -1,5 +1,5 @@
-import { ChainId, Currency, CurrencyAmount } from '@uniswap/sdk-core'
-import { SwapOptions, SwapOptionsSwapRouter02, SwapOptionsUniversalRouter, SwapType } from '@uniswap/smart-order-router'
+import { ChainId, Currency, CurrencyAmount } from '@0xelod/sdk-core'
+import { SwapOptions, SwapOptionsSwapRouter02, SwapOptionsUniversalRouter, SwapType } from '@0xelod/smart-order-router'
 import JSBI from 'jsbi'
 import { TradeTypeParam } from './schema/quote-schema'
 import { computePortionAmount, parseDeadline, parseSlippageTolerance, populateFeeOptions } from '../shared'

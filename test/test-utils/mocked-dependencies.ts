@@ -1,4 +1,4 @@
-import { V3PoolProvider } from '@uniswap/smart-order-router'
+import { V3PoolProvider } from '@0xelod/smart-order-router'
 import { Pool } from '@uniswap/v3-sdk'
 import {
   buildMockV3PoolAccessor,

@@ -1,11 +1,11 @@
-import { ChainId, Currency, CurrencyAmount, Percent } from '@uniswap/sdk-core'
+import { ChainId, Currency, CurrencyAmount, Percent } from '@0xelod/sdk-core'
 import {
   AlphaRouterConfig,
   CacheMode,
   LowerCaseStringArray,
   MapWithLowerCaseKey,
   ProtocolPoolSelection,
-} from '@uniswap/smart-order-router'
+} from '@0xelod/smart-order-router'
 import { FeeOptions } from '@uniswap/v3-sdk'
 import { FlatFeeOptions } from '@uniswap/universal-router-sdk'
 
@@ -17,6 +17,7 @@ export const DEFAULT_ROUTING_CONFIG_BY_CHAIN = (chainId: ChainId): AlphaRouterCo
   switch (chainId) {
     case ChainId.BASE:
     case ChainId.OPTIMISM:
+    case ChainId.TARAXA_TESTNET:
       return {
         v2PoolSelection: {
           topN: 3,

@@ -1,10 +1,10 @@
 import { TrafficSwitchV3PoolProvider } from '../../../../../../lib/handlers/pools/provider-migration/v3/traffic-switch-v3-pool-provider'
 import { DynamoDBCachingV3PoolProvider } from '../../../../../../lib/handlers/pools/pool-caching/v3/dynamo-caching-pool-provider'
 import { getMockedV3PoolProvider, TEST_ROUTE_TABLE } from '../../../../../test-utils/mocked-dependencies'
-import { CachingV3PoolProvider, MetricLoggerUnit, NodeJSCache } from '@uniswap/smart-order-router'
+import { CachingV3PoolProvider, MetricLoggerUnit, NodeJSCache } from '@0xelod/smart-order-router'
 import NodeCache from 'node-cache'
 import sinon from 'sinon'
-import { ChainId, Token } from '@uniswap/sdk-core'
+import { ChainId, Token } from '@0xelod/sdk-core'
 import { encodeSqrtRatioX96, FeeAmount, Pool } from '@uniswap/v3-sdk'
 import {
   DAI_USDT_LOW,
@@ -13,13 +13,13 @@ import {
   USDC_WETH_LOW,
   WETH9_USDT_LOW,
 } from '../../../../../test-utils/mocked-data'
-import { ProviderConfig } from '@uniswap/smart-order-router/build/main/providers/provider'
-import { metric } from '@uniswap/smart-order-router/build/main/util/metric'
+import { ProviderConfig } from '@0xelod/smart-order-router/build/main/providers/provider'
+import { metric } from '@0xelod/smart-order-router/build/main/util/metric'
 import { setupTables } from '../../../../dbSetup'
 import {
   DAI_MAINNET as DAI,
   USDC_MAINNET as USDC,
-} from '@uniswap/smart-order-router/build/main/providers/token-provider'
+} from '@0xelod/smart-order-router/build/main/providers/token-provider'
 
 describe('TrafficSwitchV3PoolProvider', async () => {
   setupTables(TEST_ROUTE_TABLE)

@@ -1,4 +1,4 @@
-import { Token } from '@uniswap/sdk-core'
+import { Token } from '@0xelod/sdk-core'
 import { BigNumber } from 'ethers'
 
 export interface MarshalledToken {

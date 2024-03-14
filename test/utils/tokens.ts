@@ -1,5 +1,5 @@
 import DEFAULT_TOKEN_LIST from '@uniswap/default-token-list'
-import { ChainId, Token } from '@uniswap/sdk-core'
+import { ChainId, Token } from '@0xelod/sdk-core'
 import {
   CachingTokenListProvider,
   DAI_ARBITRUM,
@@ -32,7 +32,7 @@ import {
   WRAPPED_NATIVE_CURRENCY,
   USDC_BASE,
   USDC_BASE_GOERLI,
-} from '@uniswap/smart-order-router'
+} from '@0xelod/smart-order-router'
 import { ethers } from 'ethers'
 import NodeCache from 'node-cache'
 

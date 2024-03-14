@@ -1,6 +1,6 @@
 import { GlobalRpcProviders } from '../../../../lib/rpc/GlobalRpcProviders'
 import { default as bunyan, default as Logger } from 'bunyan'
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from '@0xelod/sdk-core'
 import { expect } from 'chai'
 import { SingleJsonRpcProviderConfig, UniJsonRpcProviderConfig } from '../../../../lib/rpc/config'
 import Sinon, { SinonSandbox } from 'sinon'

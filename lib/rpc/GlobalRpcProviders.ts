@@ -1,4 +1,4 @@
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from '@0xelod/sdk-core'
 import { SingleJsonRpcProvider } from './SingleJsonRpcProvider'
 import { UniJsonRpcProvider } from './UniJsonRpcProvider'
 import Logger from 'bunyan'

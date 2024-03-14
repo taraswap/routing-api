@@ -1,6 +1,6 @@
 import { StaticJsonRpcProvider, TransactionRequest } from '@ethersproject/providers'
 import { DEFAULT_SINGLE_PROVIDER_CONFIG, SingleJsonRpcProviderConfig } from './config'
-import { metric, MetricLoggerUnit } from '@uniswap/smart-order-router'
+import { metric, MetricLoggerUnit } from '@0xelod/smart-order-router'
 import {
   BlockTag,
   BlockWithTransactions,

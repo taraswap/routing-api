@@ -1,6 +1,6 @@
-import { SUPPORTED_CHAINS } from '@uniswap/smart-order-router'
+import { SUPPORTED_CHAINS } from '@0xelod/smart-order-router'
 import * as cdk from 'aws-cdk-lib'
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from '@0xelod/sdk-core'
 import { CfnOutput, Duration } from 'aws-cdk-lib'
 import * as aws_apigateway from 'aws-cdk-lib/aws-apigateway'
 import { MethodLoggingLevel } from 'aws-cdk-lib/aws-apigateway'
