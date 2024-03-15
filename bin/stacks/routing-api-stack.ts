@@ -234,6 +234,7 @@ export class RoutingAPIStack extends cdk.Stack {
       defaultCorsPreflightOptions: {
         allowOrigins: aws_apigateway.Cors.ALL_ORIGINS,
         allowMethods: aws_apigateway.Cors.ALL_METHODS,
+        allowHeaders: aws_apigateway.Cors.DEFAULT_HEADERS.concat('X-Request-Source'),
       },
     })
     quote.addMethod('GET', lambdaIntegration)

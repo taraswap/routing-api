@@ -1,6 +1,6 @@
 {
   "name": "@uniswap/routing-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
     "app": "./dist/bin/app.js"
   },
@@ -69,7 +69,7 @@
   },
   "dependencies": {
     "@0xelod/sdk-core": "^4.1.5",
-    "@0xelod/smart-order-router": "^3.24.7",
+    "@0xelod/smart-order-router": "^3.24.8",
     "@hapi/joi": "^17.1.1",
     "@middy/core": "^2.4.1",
     "@middy/http-error-handler": "^2.4.1",
